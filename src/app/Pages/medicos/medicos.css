@@ -1,0 +1,26 @@
+.medico-card { transition: transform 0.3s ease, box-shadow 0.3s ease; border: none; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+.medico-card:hover { transform: translateY(-5px); box-shadow: 0 5px 20px rgba(0,0,0,0.15); }
+.card-header-medico { border-radius: 0 !important; }
+.medico-info p { margin-bottom: 0.5rem; }
+
+
+.medico-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.medico-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+.card-header-medico {
+  border-radius: 0 !important;
+}
+
+.medico-info p {
+  margin-bottom: 0.5rem;
+}
+
+

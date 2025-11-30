@@ -1,0 +1,97 @@
+.hero-section {
+  padding: 120px 0 80px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e8f5e8 100%);
+}
+
+.texto1 h1 { color: #2c5530; }
+.destaque-direita { color: #28a745; display: block; }
+.destaque-direita2 { color: #28a745; font-weight: 600; }
+.foto-medico img { width: 250px; height: 250px; object-fit: cover; border-radius: 50%; border: 5px solid #28a745; }
+.mapa-container { box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+
+
+
+
+.hero-section {
+  padding: 120px 0 80px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e8f5e8 100%);
+}
+
+.texto1 h1 {
+  color: #2c5530;
+}
+
+.destaque-direita {
+  color: #28a745;
+  display: block;
+}
+
+.destaque-direita2 {
+  color: #28a745;
+  font-weight: 600;
+}
+
+.foto-medico img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #28a745;
+}
+
+.mapa-container {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos adicionais para melhorar o visual */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+.btn-success {
+  transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
+}
+
+.contato-info i {
+  font-size: 1.2rem;
+}
+
+/* Responsividade adicional */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 100px 0 60px;
+  }
+  
+  .display-4 {
+    font-size: 2.5rem;
+  }
+  
+  .foto-medico img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
