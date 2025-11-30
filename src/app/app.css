@@ -1,0 +1,46 @@
+/* Estilos globais da clínica */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 76px;
+}
+
+.hero-section {
+  padding: 120px 0 80px;
+}
+
+.foto-medico img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #28a745;
+}
+
+.texto1 h1 {
+  color: #2c5530;
+}
+
+.destaque-direita {
+  color: #28a745;
+  display: block;
+}
+
+.destaque-direita2 {
+  color: #28a745;
+  font-weight: 600;
+}
+
+.mapa-container {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Smooth scrolling para âncoras */
+html { scroll-behavior: smooth; }
+
+/* Ajustes para modais */
+.modal-content { border-radius: 10px; }
+
+/* Cards de serviços */
+.card { transition: transform 0.3s ease; }
+.card:hover { transform: translateY(-5px); }
+

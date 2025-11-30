@@ -1,0 +1,170 @@
+/* Estilos específicos para o componente de agendamento */
+:host {
+  display: block;
+  min-height: calc(100vh - 200px);
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1) !important;
+}
+
+.form-control {
+  border: 2px solid #e9ecef;
+  border-radius: 8px;
+  padding: 12px 15px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+
+.form-select {
+  border: 2px solid #e9ecef;
+  border-radius: 8px;
+  padding: 12px 15px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.form-select:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+
+.form-label {
+  font-weight: 600;
+  color: #495057;
+  margin-bottom: 8px;
+}
+
+.btn-success {
+  background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  padding: 15px 40px;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(40, 167, 69, 0.4);
+}
+
+.btn-success:disabled {
+  background: #6c757d;
+  transform: none;
+  box-shadow: none;
+  cursor: not-allowed;
+}
+
+.btn-success:disabled:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+/* Estilos para ícones */
+.bi {
+  font-size: 1.1em;
+}
+
+/* Estilos para seções do formulário */
+h5.text-success {
+  border-bottom: 2px solid #28a745;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+
+/* Estilos para textarea */
+textarea.form-control {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Estilos para validação */
+.ng-invalid.ng-touched {
+  border-color: #dc3545;
+}
+
+.ng-valid.ng-touched {
+  border-color: #28a745;
+}
+
+/* Loading state */
+button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+  
+  .btn-success {
+    width: 100%;
+    padding: 12px 20px;
+  }
+  
+  .display-5 {
+    font-size: 2rem;
+  }
+}
+
+/* Animações suaves */
+.form-group {
+  transition: all 0.3s ease;
+}
+
+/* Placeholder styling */
+::placeholder {
+  color: #6c757d !important;
+  opacity: 0.7;
+}
+
+/* Estilo para informações de contato */
+.text-muted small {
+  font-size: 0.9rem;
+}
+
+/* Melhorias de acessibilidade */
+.form-control:focus,
+.form-select:focus {
+  outline: none;
+}
+
+/* Estilo para opções do select */
+option {
+  padding: 10px;
+}
+
+/* Custom scroll para textarea */
+textarea::-webkit-scrollbar {
+  width: 6px;
+}
+
+textarea::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background: #28a745;
+  border-radius: 3px;
+}
+
+textarea::-webkit-scrollbar-thumb:hover {
+  background: #218838;
+}

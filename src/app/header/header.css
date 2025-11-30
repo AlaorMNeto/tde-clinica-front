@@ -1,0 +1,11 @@
+header.component.css
+.navbar { box-shadow: none; }
+.navbar .navbar-brand img { max-height: 40px; }
+/* add any header-specific CSS here */
+
+
+
+.navbar-brand img {
+  height: 50px;
+}
+

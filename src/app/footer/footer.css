@@ -1,0 +1,8 @@
+.footer {
+	padding: 1rem 0;
+	background-color: #083111; /* unified dark background */
+	color: #ffffff;
+}
+.footer a { color: rgba(255,255,255,0.75); }
+.footer a:hover { color: #ffffff; }
+.footer img { max-height: 80px; }
