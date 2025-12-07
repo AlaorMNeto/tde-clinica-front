@@ -1,0 +1,11 @@
+<div class="container mt-5" style="max-width: 400px;">
+  <h3 class="text-center mb-3">Login Administrativo</h3>
+
+  <div class="card p-3 shadow">
+    <input [(ngModel)]="email" type="email" class="form-control mb-2" placeholder="E-mail">
+    <input [(ngModel)]="password" type="password" class="form-control mb-2" placeholder="Senha">
+    <button class="btn btn-primary w-100" (click)="submit()">Entrar</button>
+
+    <p *ngIf="error" class="text-danger mt-2">{{ error }}</p>
+  </div>
+</div>
